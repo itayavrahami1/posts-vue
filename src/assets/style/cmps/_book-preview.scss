@@ -1,0 +1,23 @@
+.book-preview{
+    padding: 5px;
+    &:hover{
+        cursor: pointer;
+        background-color: #dddddd;
+    }
+
+    .book-img {
+        position: relative;
+
+        .on-sale-banner{
+            background-color: rgb(45, 206, 45);
+            padding: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+}
+

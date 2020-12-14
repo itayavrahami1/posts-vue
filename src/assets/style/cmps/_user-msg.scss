@@ -1,0 +1,16 @@
+.user-msg {
+    padding: 20px;
+    border: black solid 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+
+    &.success{
+        background-color: #0F9D58;
+    }   
+    &.fail{
+        background-color: #DB4437;
+    }   
+  }

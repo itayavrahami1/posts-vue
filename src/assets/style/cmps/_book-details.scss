@@ -1,0 +1,79 @@
+.book-details{
+    margin-block-end: 20px;
+    .book-img {
+        position: relative;
+        width: 300px;
+        margin: auto 10px;
+
+        .on-sale-banner{
+            background-color: rgb(45, 206, 45);
+            padding: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .long-txt{
+        display: contents;
+    }
+
+    .book-price {
+        padding: 8px;
+        margin: 0 auto;
+        &.expensive {
+            background-color: red;
+        }
+        
+        &.cheap {
+            background-color: green;
+        }
+    }
+
+    .book-info{
+        margin: 0 10px;
+        flex-basis: 50%;
+        h2 {
+            text-decoration: underline;
+        }
+        h5, .book-desc{
+            text-align: left;
+        }
+
+        .book-desc{
+            flex:1;
+        }
+
+        ul{
+            padding-inline-start: 0;
+        }
+
+        button{
+            margin: 0 auto;
+        }
+    }
+
+    .book-details-btns{
+        * {
+            margin: 5px;
+        }
+    }
+
+}
+.book-review-cmp{
+    .add-review{
+            flex-basis: 40%;
+        }
+
+    .review-preview{
+        text-align: left;
+        margin-block-end: 10px;
+
+        .review-title{
+            font-weight: bold;
+            margin-block-end: 5px;
+        }
+    }
+}
+        
